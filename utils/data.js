@@ -11,7 +11,7 @@ export const myresume = {
   },
   languages: [
     { language: "English", level: 75 },
-    { language: "Persian (native)", level: 100 },
+    { language: "Persian", level: 100 },
   ],
   skills: [
     { tool: "Html, CSS, CSS3", level: 80 },
@@ -44,7 +44,7 @@ export const myresume = {
     {
       name: "شرکت انتقال داده‌های آسیاتک",
       location: "تهران",
-      description: ['callcenter', 'front-end for b2c'],
+      description: ['b2b', 'front-end for b2c'],
     },
   ],
   self_projects: [
