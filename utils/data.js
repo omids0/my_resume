@@ -1,7 +1,7 @@
 export const myresume = {
   me: {
     name: "امید سهیل‌نیا",
-    job: "Front-End web developer (Junior)",
+    job: "Front-End web developer",
     phone: "+ 98 935 440 3007",
     address: "Iran, Tehran(west)",
     age: 1372,
@@ -15,18 +15,22 @@ export const myresume = {
   ],
   skills: [
     { tool: "Html, CSS, CSS3", level: 80 },
-    { tool: "SASS", level: 60 },
+    { tool: "SASS", level: 50 },
     { tool: "BootStrap, Styled-component", level: 80 },
+    { tool: "Ant Design", level: 90 },
+    { tool: "Material UI", level: 80 },
     { tool: "JavaScript ES6", level: 75 },
     { tool: "NodeJS, ExpressJS", level: 60 },
     { tool: "ReactJS", level: 80 },
+    { tool: "React-Native", level: 20 },
     { tool: "Redux", level: 75 },
     { tool: "NextJS", level: 70 },
     { tool: "MongoDB, Prisma", level: 75 },
     { tool: "Git", level: 80 },
     { tool: "GraphQL", level: 60 },
     { tool: "TypeScript", level: 60 },
-    { tool: "Api, axios, postman", level: 60 },
+    { tool: "Postman", level: 60 },
+    { tool: "Api, axios", level: 60 },
     { tool: "CorelDraw", level: 40 },
   ],
   education: {
@@ -45,6 +49,11 @@ export const myresume = {
       name: "شرکت انتقال داده‌های آسیاتک",
       location: "تهران",
       description: ['b2b', 'front-end for b2c'],
+    },
+    {
+      name: "شرکت پلازیو",
+      location: "تهران",
+      description: ['front-end'],
     },
   ],
   self_projects: [
