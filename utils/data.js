@@ -51,7 +51,7 @@ export const myresume = {
       description: ['b2b', 'front-end for b2c'],
     },
     {
-      name: "شرکت پلازیو",
+      name: "فروشگاه پلازیو",
       location: "تهران",
       description: ['front-end'],
     },
