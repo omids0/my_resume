@@ -15,7 +15,7 @@ export default function Myjobs({ myresume }) {
               ))}
             </ul>
           </div>
-        ))}
+        )).reverse()}
       </div>
     </div>
   );
