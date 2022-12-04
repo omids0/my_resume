@@ -14,7 +14,7 @@ export const myresume = {
   ],
   skills: [
     { tool: "Html, CSS, CSS3, SASS", level: 80 },
-    { tool: "BootStrap, Styled-component, Ant Design, Material UI", level: 80 },
+    { tool: "BootStrap, Styled-component, Ant-Design, Material-UI", level: 80 },
     { tool: "JavaScript ES6", level: 75 },
     { tool: "ReactJS", level: 80 },
     { tool: "NextJS", level: 70 },
