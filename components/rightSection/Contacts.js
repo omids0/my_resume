@@ -12,13 +12,13 @@ export default function Contacts({ myresume }) {
   return (
     <div className="contact-container-desktop">
       <div className="contact-desktop">
-        <AiOutlineMail /> <p>{myresume.me.email}</p>
+        <AiOutlineMail /> <p>{myresume.email}</p>
       </div>
       <div className="contact-desktop">
-        <AiOutlineCalendar /> <p>{myresume.me.age}</p>
+        <AiOutlineCalendar /> <p>{myresume.age}</p>
       </div>
       <div className="contact-desktop">
-        <MdOutlineLocationOn /> <p className="ltr">{myresume.me.address}</p>
+        <MdOutlineLocationOn /> <p className="ltr">{myresume.address}</p>
       </div>
 
       <div className="contact-desktop">
@@ -26,12 +26,12 @@ export default function Contacts({ myresume }) {
           <AiOutlinePhone /> <AiOutlineWhatsApp />
         </div>
         <a href="https://wa.me/+989354403007" target="_blank" rel="noreferrer">
-          <p className="ltr">{myresume.me.phone}</p>
+          <p className="ltr">{myresume.phone}</p>
         </a>
       </div>
 
       <div className="contact-desktop">
-        <VscAccount /> <p>{myresume.me.relationship}</p>
+        <VscAccount /> <p>{myresume.relationship}</p>
       </div>
     </div>
   );

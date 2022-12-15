@@ -31,7 +31,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "iransans", "times new roman" ,"sans-serif", "arial";
+  font-family: "iransans", "times new roman", "sans-serif", "arial";
 }
 
 h3 {
@@ -132,7 +132,7 @@ h2 {
 
 .about-me-desktop {
   padding-bottom: var(--s3);
-  margin-bottom: 3rem
+  margin-bottom: 3rem;
 }
 
 .work-experiences-container div {
@@ -149,34 +149,34 @@ h2 {
   border-radius: 8px;
 }
 
-.job-desc-list{
+.job-desc-list {
   margin: 0 var(--s2);
-  list-style-type: ' - '
+  list-style-type: " - ";
 }
 
-.job-tools{
+.job-tools {
   display: flex;
-  padding: 2rem 0
+  padding: 2rem 0;
 }
-.job-tools p{
+.job-tools p {
   background-color: #00bfff4f;
-  margin: 0 .5rem;
-  padding: 0 .8rem;
-  border-radius: 3px
+  margin: 0 0.5rem;
+  padding: 0 0.8rem;
+  border-radius: 3px;
 }
-.job-links{
+.job-links {
   display: flex;
   justify-content: space-evenly;
   margin-top: var(--s2);
 }
-.job-links-live{
+.job-links-live {
   width: 100%;
   padding: var(--s1);
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.job-links-github{
+.job-links-github {
   width: 100%;
   padding: var(--s1);
   border-right: 2px solid var(--light-black);
@@ -184,29 +184,43 @@ h2 {
   justify-content: flex-end;
   align-items: center;
 }
-.job-links-github:hover a, .job-links-live:hover a{
+.job-links-github:hover a,
+.job-links-live:hover a {
   cursor: pointer;
 }
-.react-icon{
+.react-icon {
   font-size: 2.6rem;
   margin-right: 1rem;
 }
-.job-links-live, .job-links-github a{
+.job-links-live,
+.job-links-github a {
   font-size: 1.3rem;
 }
-.job-desc2{
+.job-desc2 {
   font-size: 1.2rem;
   color: var(--gray);
 }
-.job-desc3{
+.job-desc3 {
   font-size: 1.4rem;
   color: var(--gray);
   margin-top: 1rem;
-  font-weight: 500
+  font-weight: 500;
 }
 
 @media (max-width: 1024px) {
   .main-container-desktop {
     /* display: none; */
   }
+}
+
+.print-button {
+  opacity: 0.2;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  font-size: 4rem;
+}
+
+.print-button:hover {
+  opacity: 1;
 }
