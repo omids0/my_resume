@@ -48,7 +48,7 @@ export const myresume = {
     {
       name: "فروشگاه پلازیو",
       location: "تهران",
-      description: ['front-end'],
+      description: ['front-end', 'react-native'],
     },
   ],
   self_projects: [
