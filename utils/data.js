@@ -38,7 +38,7 @@ export const myresume = {
     {
       name: "شرکت نرم افزاری سپیدار",
       location: "تهران",
-      description: ['front-end'],
+      description: ['html, css', 'JavaScript', 'reactJS'],
     },
     {
       name: "شرکت انتقال داده‌های آسیاتک",
@@ -48,7 +48,7 @@ export const myresume = {
     {
       name: "فروشگاه پلازیو",
       location: "تهران",
-      description: ['front-end', 'react-native'],
+      description: ['reactJS', 'react-native'],
     },
   ],
   self_projects: [
