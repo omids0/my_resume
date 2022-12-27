@@ -66,7 +66,7 @@ export const myresume = {
       description2:'در صورتی که پروژه به صورت انلاین آپ نشد، لطفا با فیلترشکن باز نمایید.',
       description3: 'username:10001;   password:admin',
       tools: ['ReactJS', 'CSS', "BootStrap", "ExpressJS", "Redux", "MongoDB"],
-      links: { github: "https://github.com/omids0/menu", live: "https://staff-menu.herokuapp.com/" },
+      links: { github: "https://github.com/omids0/menu", live: "https://staff-menu.vercel.app/" },
     },
     {
       projectName: "A set of JavaScript and React training projects",
