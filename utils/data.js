@@ -1,7 +1,7 @@
 export const myresume = {
   me: {
     name: "امید سهیل‌نیا",
-    job: "Front-End web developer",
+    job: "Front-End Developer",
     phone: "+ 98 935 440 3007",
     address: "Iran, Tehran(west)",
     age: 1372,
@@ -49,7 +49,8 @@ export const myresume = {
       name: "فروشگاه پلازیو",
       location: "تهران",
       description: ['reactJS', 'react-native'],
-    },{
+    },
+    {
       name: "PSPexpress.co",
       location: "تهران",
       description: ['reactJS', 'react-native', 'NextJS'],
