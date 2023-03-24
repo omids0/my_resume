@@ -65,7 +65,7 @@ export const myresume = {
       description: "این پروژه جهت استفاده کارکنان داخل رستوران طراحی شده است. از ظاهر جالبی برخوردار نیست، اما شرایط کار را آسان تر کرده است. سطح دسترسی ها در این پروژه لحاظ شده است.",
       description2:'در صورتی که پروژه به صورت انلاین آپ نشد، لطفا با فیلترشکن باز نمایید.',
       description3: 'username:10001;   password:admin',
-      tools: ['ReactJS', 'CSS', "BootStrap", "ExpressJS", "Redux", "MongoDB"],
+      tools: ['ReactJS', 'TailwinCSS', "ExpressJS", "Redux", "MongoDB"],
       links: { github: "https://github.com/omids0/staff-menu", live: "https://staff-menu-omid.vercel.app/" },
     },
     {
