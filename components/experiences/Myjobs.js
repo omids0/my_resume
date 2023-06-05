@@ -10,7 +10,7 @@ export default function Myjobs({ myresume }) {
           .map((item, i) => (
             <div key={i}>
               <p className="bold mys">
-                {item.name} / <span className="gray">{item.workTime}</span>
+                {item.name} / <span className="work-time">{item.workTime}</span>
               </p>
               <ul className="job-desc-list">
                 {item.description.map((item, i) => (

@@ -12,7 +12,10 @@ export const myresume = {
   languages: [{ language: "English", level: 75 }],
   skills: [
     { tool: "Html, CSS, CSS3, SASS", level: 80 },
-    { tool: "BootStrap, Styled-component, Ant-Design, Material-UI", level: 80 },
+    {
+      tool: "BootStrap, Styled-component, Ant-Design, Material-UI, TailwindCSS",
+      level: 80,
+    },
     { tool: "JavaScript ES6", level: 75 },
     { tool: "ReactJS", level: 80 },
     { tool: "NextJS", level: 70 },
@@ -50,7 +53,7 @@ export const myresume = {
     },
     {
       name: "PSPexpress.co",
-      workTime: "تمام وقت",
+      workTime: "تمام وقت (فعال)",
       description: ["reactJS", "react-native", "NextJS"],
     },
   ],

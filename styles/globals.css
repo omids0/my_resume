@@ -200,6 +200,10 @@ h2 {
   font-size: 1.2rem;
   color: var(--gray);
 }
+.work-time {
+  font-size: 1rem;
+  color: var(--gray);
+}
 .job-desc3 {
   font-size: 1.4rem;
   color: var(--gray);
