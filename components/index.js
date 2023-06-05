@@ -1,9 +1,9 @@
 import React from "react";
 import Head from "next/head";
-import RightSection from "./RightSection";
-import LeftSection from "./LeftSection";
+import AboutMe from "./about-me";
+import MyExperiences from "./experiences";
 
-export default function DesktopResume() {
+export default function MyResume() {
   return (
     <div>
       <Head>
@@ -13,8 +13,8 @@ export default function DesktopResume() {
       </Head>
 
       <div className="main-container-desktop">
-        <RightSection />
-        <LeftSection />
+        <AboutMe />
+        <MyExperiences />
       </div>
     </div>
   );
