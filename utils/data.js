@@ -9,9 +9,7 @@ export const myresume = {
     intrests: ["Online Game", "Music", "Study", "Tourism"],
     email: "soheilniao@gmail.com",
   },
-  languages: [
-    { language: "English", level: 75 },
-  ],
+  languages: [{ language: "English", level: 75 }],
   skills: [
     { tool: "Html, CSS, CSS3, SASS", level: 80 },
     { tool: "BootStrap, Styled-component, Ant-Design, Material-UI", level: 80 },
@@ -37,49 +35,71 @@ export const myresume = {
   work_experiences: [
     {
       name: "شرکت نرم افزاری سپیدار",
-      location: "تهران",
-      description: ['html, css', 'JavaScript', 'reactJS'],
+      workTime: "پاره وقت",
+      description: ["html, css", "JavaScript", "reactJS"],
     },
     {
       name: "شرکت انتقال داده‌های آسیاتک",
-      location: "تهران",
-      description: ['b2b', 'front-end for b2c'],
+      workTime: "دورکاری",
+      description: ["b2b", "front-end for b2c"],
     },
     {
       name: "فروشگاه پلازیو",
-      location: "تهران",
-      description: ['reactJS', 'react-native'],
+      workTime: "تمام وقت",
+      description: ["reactJS", "react-native"],
     },
     {
       name: "PSPexpress.co",
-      location: "تهران",
-      description: ['reactJS', 'react-native', 'NextJS'],
+      workTime: "تمام وقت",
+      description: ["reactJS", "react-native", "NextJS"],
     },
   ],
   self_projects: [
     {
       projectName: "Online Shope",
-      description: "در این پروژه امکان مشاهده محصولات، ثبت و خرید می باشد. توسط دسترسی ادمین سفارشات مدیریت و ثبت میشوند. دسترسی ادمین جهت مشاهده نمونه کار در دسترس عموم قرار گرفته است.",
-      description2:'در صورتی که پروژه به صورت انلاین آپ نشد، لطفا با فیلترشکن باز نمایید.',
-      description3: '',
-      tools: ['NextJS', 'MongoDB', 'Redux', 'CSS', 'BootStrap'],
-      links: { github: "https://github.com/omids0/nextjs-online-shop", live: "https://omid-shop.vercel.app/" },
+      description:
+        "در این پروژه امکان مشاهده محصولات، ثبت و خرید می باشد. توسط دسترسی ادمین سفارشات مدیریت و ثبت میشوند. دسترسی ادمین جهت مشاهده نمونه کار در دسترس عموم قرار گرفته است.",
+      description2:
+        "در صورتی که پروژه به صورت انلاین آپ نشد، لطفا با فیلترشکن باز نمایید.",
+      description3: "",
+      tools: ["NextJS", "MongoDB", "Redux", "CSS", "BootStrap"],
+      links: {
+        github: "https://github.com/omids0/nextjs-online-shop",
+        live: "https://omid-shop.vercel.app/",
+      },
     },
     {
       projectName: "Staff Resturant Menu",
-      description: "این پروژه جهت استفاده کارکنان داخل رستوران طراحی شده است. از ظاهر جالبی برخوردار نیست، اما شرایط کار را آسان تر کرده است. سطح دسترسی ها در این پروژه لحاظ شده است.",
-      description2:'در صورتی که پروژه به صورت انلاین آپ نشد، لطفا با فیلترشکن باز نمایید.',
-      description3: 'username:10001;   password:admin',
-      tools: ['ReactJS', 'TailwindCSS', "ExpressJS", "Redux", "MongoDB"],
-      links: { github: "https://github.com/omids0/staff-menu", live: "https://staff-menu-omid.vercel.app/" },
+      description:
+        "این پروژه جهت استفاده کارکنان داخل رستوران طراحی شده است. از ظاهر جالبی برخوردار نیست، اما شرایط کار را آسان تر کرده است. سطح دسترسی ها در این پروژه لحاظ شده است.",
+      description2:
+        "در صورتی که پروژه به صورت انلاین آپ نشد، لطفا با فیلترشکن باز نمایید.",
+      description3: "username:10001;   password:admin",
+      tools: ["ReactJS", "TailwindCSS", "ExpressJS", "Redux", "MongoDB"],
+      links: {
+        github: "https://github.com/omids0/staff-menu",
+        live: "https://staff-menu-omid.vercel.app/",
+      },
     },
     {
       projectName: "A set of JavaScript and React training projects",
-      description: "مجموعه ای از پروژه های تمرینی و تفریحی که توسط اینجانب انجام شده است.",
-      description2:'در صورتی که پروژه به صورت انلاین آپ نشد، لطفا با فیلترشکن باز نمایید.',
-      description3: '',
-      tools: ['HTML', 'CSS', "react-reveal",'BootStrap', 'JavaScript', 'React'],
-      links: { github: "https://github.com/omids0/", live: "https://omid-soheilnia-projects.herokuapp.com/" },
-    }
+      description:
+        "مجموعه ای از پروژه های تمرینی و تفریحی که توسط اینجانب انجام شده است.",
+      description2:
+        "در صورتی که پروژه به صورت انلاین آپ نشد، لطفا با فیلترشکن باز نمایید.",
+      description3: "",
+      tools: [
+        "HTML",
+        "CSS",
+        "react-reveal",
+        "BootStrap",
+        "JavaScript",
+        "React",
+      ],
+      links: {
+        github: "https://github.com/omids0/",
+        live: "https://omid-soheilnia-projects.herokuapp.com/",
+      },
+    },
   ],
 };
