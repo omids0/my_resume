@@ -10,7 +10,7 @@ export default function SelfProjects({ myresume }) {
         {myresume.map((item, i) => (
           <div key={i} className="mypojects-countainer">
             <p className="bold mys">{item.projectName}</p>
-            <p>{item.description}</p>
+            <p className="job-desc">{item.description}</p>
             <div className="job-tools">
               {item.tools.map((item, i) => (
                 <p key={i}>{item}</p>

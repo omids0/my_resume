@@ -8,6 +8,7 @@ export const myresume = {
     relationship: "Single",
     intrests: ["Online Game", "Music", "Study", "Tourism"],
     email: "soheilniao@gmail.com",
+    linkedin: "Linkedin",
   },
   languages: [{ language: "English", level: 75 }],
   skills: [
@@ -39,22 +40,34 @@ export const myresume = {
     {
       name: "شرکت نرم افزاری سپیدار",
       workTime: "پاره وقت",
-      description: ["html, css", "JavaScript", "reactJS"],
+      description: ["Html", "Css", "JavaScript", "ReactJS"],
     },
     {
       name: "شرکت انتقال داده‌های آسیاتک",
       workTime: "دورکاری",
-      description: ["b2b", "front-end for b2c"],
+      description: ["b2b", "front-end", "JavaScript", "ReactJS"],
     },
     {
       name: "فروشگاه پلازیو",
       workTime: "تمام وقت",
-      description: ["reactJS", "react-native"],
+      description: [
+        "ReactJS",
+        "Ant-design",
+        "Material-design",
+        "Redux-thunk",
+        "React-native",
+      ],
     },
     {
       name: "PSPexpress.co",
       workTime: "تمام وقت (فعال)",
-      description: ["reactJS", "react-native", "NextJS"],
+      description: [
+        "NextJS",
+        "JavaScript",
+        "TailwindCss",
+        "React-Query",
+        "Figma",
+      ],
     },
   ],
   self_projects: [

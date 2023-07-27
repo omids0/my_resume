@@ -9,14 +9,16 @@ export default function Myjobs({ myresume }) {
         {myresume
           .map((item, i) => (
             <div key={i}>
-              <p className="bold mys">
+              <span className="bold mys">
                 {item.name} / <span className="work-time">{item.workTime}</span>
-              </p>
-              <ul className="job-desc-list">
+              </span>
+              <div className="job-desc-list">
                 {item.description.map((item, i) => (
-                  <li key={i}>{item}</li>
+                  <span key={i} className="job-exprienses-item">
+                    #{item}
+                  </span>
                 ))}
-              </ul>
+              </div>
             </div>
           ))
           .reverse()}
