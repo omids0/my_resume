@@ -27,13 +27,17 @@ export default function Contacts({ myresume }) {
           <AiOutlinePhone /> <AiOutlineWhatsApp />
         </div>
         <a href="https://wa.me/+989354403007" target="_blank" rel="noreferrer">
-          <span className="ltr">{myresume.phone}</span>
+          <p className="ltr">{myresume.phone}</p>
         </a>
       </div>
 
       <div className="contact-desktop">
         <AiOutlineLinkedin />
-        <a href="#" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.linkedin.com/in/omid-s-8a5239238"
+          target="_blank"
+          rel="noreferrer"
+        >
           <span>{myresume.linkedin}</span>
         </a>
       </div>
