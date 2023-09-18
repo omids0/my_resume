@@ -60,13 +60,26 @@ export const myresume = {
     },
     {
       name: "PSPexpress.co",
-      workTime: "تمام وقت (فعال)",
+      workTime: "تمام وقت",
       description: [
         "NextJS",
         "JavaScript",
         "TailwindCss",
         "React-Query",
         "Figma",
+        "Jira",
+      ],
+    },
+    {
+      name: "گروه صنعتی انتخاب",
+      workTime: "تمام وقت (فعال)",
+      description: [
+        "ReactJS",
+        "JavaScript",
+        "MaterialUI",
+        "RTK",
+        "Figma",
+        "Jira",
       ],
     },
   ],
