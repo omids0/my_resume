@@ -2,12 +2,12 @@ import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { FiGlobe } from "react-icons/fi";
 
-export default function SelfProjects({ myresume }) {
+export default function SelfProjects({ myResume, lang }) {
   return (
     <div>
-      <h3>پروژه‌های شخصی</h3>
+      <h3>{lang === "IR" ? "پروژه‌های شخصی" : "Personal projects"}</h3>
       <div>
-        {myresume.map((item, i) => (
+        {myResume.map((item, i) => (
           <div key={i} className="mypojects-countainer">
             <p className="bold mys">{item.projectName}</p>
             <p className="job-desc">{item.description}</p>

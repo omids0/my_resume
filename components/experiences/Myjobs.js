@@ -1,12 +1,14 @@
 import React from "react";
 
-export default function Myjobs({ myresume }) {
+export default function MyJobs({ myResume, lang }) {
   return (
     <div>
-      <h3>سوابق شغلی</h3>
-      <p className="gray">از سال ۱۳۹۸ تا به امروز</p>
+      <h3>{lang === "IR" ? "سوابق شغلی" : "Work Experiences"}</h3>
+      <p className="gray">
+        {lang === "IR" ? "از سال ۱۳۹۸ تا به امروز" : "From 2018 to today"}
+      </p>
       <div className="work-experiences-container">
-        {myresume
+        {myResume
           .map((item, i) => (
             <div key={i}>
               <span className="bold mys">

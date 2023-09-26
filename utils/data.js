@@ -49,7 +49,7 @@ export const myresume = {
     },
     {
       name: "فروشگاه پلازیو",
-      workTime: "تمام وقت",
+      workTime: "Full-time",
       description: [
         "ReactJS",
         "Ant-design",
@@ -136,7 +136,7 @@ export const myresume = {
 export const myResumeData = {
   EN: {
     me: {
-      name: "امید سهیل‌نیا",
+      name: "Omid SoheilNia",
       job: "Front-End Developer",
       phone: "+ 98 935 440 3007",
       address: "Iran, Tehran(west)",
@@ -167,25 +167,25 @@ export const myResumeData = {
       { tool: "CorelDraw", level: 40 },
     ],
     education: {
-      degree: "کارشناسی فناوری اطلاعات",
+      degree: "Bachelor of Information Technology",
       startAt: 1391,
       endAt: 1395,
-      location: "دانشگاه آزاد اسلامی واحد پرند",
+      location: "Parand Branch Islamic Azad University",
     },
     work_experiences: [
       {
-        name: "شرکت نرم افزاری سپیدار",
-        workTime: "پاره وقت",
+        name: "Sepidar software company",
+        workTime: "Part-time",
         description: ["Html", "Css", "JavaScript", "ReactJS"],
       },
       {
-        name: "شرکت انتقال داده‌های آسیاتک",
-        workTime: "دورکاری",
+        name: "Asiatec Data Transfer Company",
+        workTime: "Remote",
         description: ["b2b", "front-end", "JavaScript", "ReactJS"],
       },
       {
-        name: "فروشگاه پلازیو",
-        workTime: "تمام وقت",
+        name: "Plaza Store",
+        workTime: "Full-time",
         description: [
           "ReactJS",
           "Ant-design",
@@ -196,7 +196,7 @@ export const myResumeData = {
       },
       {
         name: "PSPexpress.co",
-        workTime: "تمام وقت",
+        workTime: "Full-time",
         description: [
           "NextJS",
           "JavaScript",
@@ -207,8 +207,8 @@ export const myResumeData = {
         ],
       },
       {
-        name: "گروه صنعتی انتخاب",
-        workTime: "تمام وقت (فعال)",
+        name: "Entekhab Industrial Group",
+        workTime: "Full-time (active)",
         description: [
           "ReactJS",
           "JavaScript",
@@ -223,9 +223,9 @@ export const myResumeData = {
       {
         projectName: "Online Shope",
         description:
-          "در این پروژه امکان مشاهده محصولات، ثبت و خرید می باشد. توسط دسترسی ادمین سفارشات مدیریت و ثبت میشوند. دسترسی ادمین جهت مشاهده نمونه کار در دسترس عموم قرار گرفته است.",
+          "In this project, it is possible to view products, register and buy. Orders are managed and registered by admin access. Admin access to view portfolios is available to the public.",
         description2:
-          "در صورتی که پروژه به صورت انلاین آپ نشد، لطفا با فیلترشکن باز نمایید.",
+          "If the project is not uploaded online, please open it with a filter breaker.",
         description3: "",
         tools: ["NextJS", "MongoDB", "Redux", "CSS", "BootStrap"],
         links: {
@@ -236,9 +236,9 @@ export const myResumeData = {
       {
         projectName: "Staff Resturant Menu",
         description:
-          "این پروژه جهت استفاده کارکنان داخل رستوران طراحی شده است. از ظاهر جالبی برخوردار نیست، اما شرایط کار را آسان تر کرده است. سطح دسترسی ها در این پروژه لحاظ شده است.",
+          "This project is designed for the use of employees inside the restaurant. It does not have an interesting appearance, but it has made the working conditions easier. Access levels are included in this project.",
         description2:
-          "در صورتی که پروژه به صورت انلاین آپ نشد، لطفا با فیلترشکن باز نمایید.",
+          "If the project is not uploaded online, please open it with a filter breaker.",
         description3: "username:10001;   password:admin",
         tools: ["ReactJS", "TailwindCSS", "ExpressJS", "Redux", "MongoDB"],
         links: {
@@ -249,9 +249,9 @@ export const myResumeData = {
       {
         projectName: "A set of JavaScript and React training projects",
         description:
-          "مجموعه ای از پروژه های تمرینی و تفریحی که توسط اینجانب انجام شده است.",
+          "A series of training and entertainment projects that have been done by me.",
         description2:
-          "در صورتی که پروژه به صورت انلاین آپ نشد، لطفا با فیلترشکن باز نمایید.",
+          "If the project is not uploaded online, please open it with a filter breaker.",
         description3: "",
         tools: [
           "HTML",

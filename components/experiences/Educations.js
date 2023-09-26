@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function Educations({ myresume }) {
+export default function Educations({ myResume, lang }) {
   return (
     <div>
-      <h3>تحصیلات</h3>
-      <p className="bold">{myresume.education.degree}</p>
-      <p className="gray mys">{`${myresume.education.location} (${myresume.education.startAt} - ${myresume.education.endAt})`}</p>
+      <h3>{lang === "IR" ? "تحصیلات" : "Education"}</h3>
+      <p className="bold">{myResume?.education.degree}</p>
+      <p className="gray mys">{`${myResume?.education.location} (${myResume?.education.startAt} - ${myResume?.education.endAt})`}</p>
     </div>
   );
 }

@@ -5,8 +5,8 @@ import Languages from "./Languages";
 import Softwares from "./Softwares";
 import { getUserLang } from "../../utils/methods";
 
-export default function RightSection() {
-  const lang = getUserLang() ?? "IR";
+export default function AboutMeSection() {
+  const lang = getUserLang();
 
   return (
     <div className="skills-desktop">
