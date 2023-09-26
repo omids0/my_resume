@@ -30,7 +30,14 @@ export default function MyResume() {
   }
 
   return (
-    <div style={{ direction: lang === "IR" ? "rtl" : "ltr" }}>
+    <div
+      style={{
+        direction: lang === "IR" ? "rtl" : "ltr",
+        width: "1024px",
+        minWidth: "1024px",
+        margin: "0 auto",
+      }}
+    >
       <Head>
         <title>Omid SoheilNia</title>
         <meta name="description" content="رزومه امید سهیل‌ نیا" />
