@@ -9,17 +9,17 @@ import {
 import { MdOutlineLocationOn } from "react-icons/md";
 import { VscAccount } from "react-icons/vsc";
 
-export default function Contacts({ myresume }) {
+export default function Contacts({ myResume }) {
   return (
     <div className="contact-container-desktop">
       <div className="contact-desktop">
-        <AiOutlineMail /> <span>{myresume.email}</span>
+        <AiOutlineMail /> <span>{myResume.email}</span>
       </div>
       <div className="contact-desktop">
-        <AiOutlineCalendar /> <span>{myresume.age}</span>
+        <AiOutlineCalendar /> <span>{myResume.age}</span>
       </div>
       <div className="contact-desktop">
-        <MdOutlineLocationOn /> <span className="ltr">{myresume.address}</span>
+        <MdOutlineLocationOn /> <span className="ltr">{myResume.address}</span>
       </div>
 
       <div className="contact-desktop">
@@ -27,7 +27,7 @@ export default function Contacts({ myresume }) {
           <AiOutlinePhone /> <AiOutlineWhatsApp />
         </div>
         <a href="https://wa.me/+989354403007" target="_blank" rel="noreferrer">
-          <p className="ltr">{myresume.phone}</p>
+          <p className="ltr">{myResume.phone}</p>
         </a>
       </div>
 
@@ -38,12 +38,12 @@ export default function Contacts({ myresume }) {
           target="_blank"
           rel="noreferrer"
         >
-          <span>{myresume.linkedin}</span>
+          <span>{myResume.linkedin}</span>
         </a>
       </div>
 
       <div className="contact-desktop">
-        <VscAccount /> <span>{myresume.relationship}</span>
+        <VscAccount /> <span>{myResume.relationship}</span>
       </div>
     </div>
   );

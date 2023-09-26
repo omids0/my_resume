@@ -1,17 +1,18 @@
 import React from "react";
-import { myresume } from "../../utils/data";
+import { myResumeData } from "../../utils/data";
 import Contacts from "./Contacts";
-import Intrests from "./Intrests";
 import Languages from "./Languages";
 import Softwares from "./Softwares";
+import { getUserLang } from "../../utils/methods";
 
 export default function RightSection() {
+  const lang = getUserLang() ?? "IR";
+
   return (
     <div className="skills-desktop">
-      <Contacts myresume={myresume.me} />
-      {/*<Intrests myresume={myresume.me.intrests} />*/}
-      <Languages myresume={myresume.languages} />
-      <Softwares myresume={myresume.skills} />
+      <Contacts myResume={myResumeData[lang].me} />
+      <Languages myResume={myResumeData[lang].languages} />
+      <Softwares myResume={myResumeData[lang].skills} />
     </div>
   );
 }
